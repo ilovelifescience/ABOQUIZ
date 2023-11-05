@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>혈액형 퀴즈</title>
+</head>
+<body>
+  
+    <div id="no" class="no" style="z-index: 1;" onclick="no()">실패!</div>
+    <div id="yes" class="yes" style="z-index: 1;" onclick="yes()">성공!</div>
+    <div id="wrong" class="wrong" style="z-index: 1;" onclick="wrong()">다시 생각해보세요</div>
+    <div id="right" class="right" style="z-index: 1;" onclick="right()">정답입니다!</div>
+    <div class="zzangbox">
+      <div class="big_box" id="big_box">
+        <div class="question">
+          <p class="sc" id="sc">ABO-QUIZ</p>
+          <img id="img" width="100%" height="50%" src="https://cdn.discordapp.com/attachments/1038804641644814459/1170546679745884241/KakaoTalk_20231105_103047683.jpg?ex=65596f8c&is=6546fa8c&hm=d128449673ce5d55189121934ed4e641901dfef5cd00e7ce25f8a7f88b180961&"> 
+        </div>
+        <div class="buttons">
+          <a class="button" id="AA">AA</a>
+          <a class="button" id="BB">BB</a>
+          <a class="button" id="OO">OO</a>
+          <a class="button" id="설명">설명</a>
+        </div>
+        <br>
+        <div class="buttons">
+          <a class="button" id="AO">AO</a>
+          <a class="button" id="BO">BO</a>
+          <a class="button" id="AB">AB</a>
+          <button class="button" id="start">start</button>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
+<!-- <body>
+    <div class="question">
+        <div class="quiz">
+            <p>문제자리</p>
+        </div>
+        <div class="buttons">   
+            <a class="button" id="AA">AA</a>
+            <a class="button" id="BB">BB</a>
+            <a class="button" id="OO">OO</a>
+        </div>
+        </div class="buttons">
+            <a class="button" id="AB">AB</a>
+            <a class="button" id="AO">AO</a>
+            <a class="button" id="BO">BO</a>
+        </div>
+        <a class="button" id="start">start</a>
+    </div> -->
+  </body>
+</html>
