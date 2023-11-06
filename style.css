@@ -35,7 +35,8 @@
     width: 99%;
     height: 98%;
     color: rgb(0, 0, 0);
-    font-size: 120px;
+    font-size: 50px;
+    marign-top : 50%;
     display: none;
     text-align: center;
     opacity: 0.5;
