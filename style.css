@@ -144,7 +144,7 @@
   
   .button {
     color: rgb(250, 250, 250);
-    box-shadow: rgb(30, 161, 54); 0 0px 0px 2px inset;
+/*     box-shadow: rgb(30, 161, 54); 0 0px 0px 2px inset; */
   }
  
   .button:hover {
