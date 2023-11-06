@@ -1,4 +1,4 @@
-let i = 14;
+let i = 0;
 
 
 const quiz = [
@@ -29,8 +29,8 @@ function startDisabled()  {
     target.disabled = true;
 }
 
-function btnsDisabled()  {
-    const target = document.querySelectorAll('.button');
+function Disabled()  {
+    const target = document.getElementById('설명');
     target.disabled = true;
 }
 
@@ -46,7 +46,6 @@ function no(){
     document.getElementsById('설명')[0].style.display = 'none';
 }
 
-btnsDisabled();
 
 function yes(){
     document.getElementsByClassName('yes')[0].style.display = 'none';
@@ -60,6 +59,7 @@ document.getElementById('start').addEventListener('click', function(){
 })
 
 document.getElementById('설명').addEventListener('click', function(){
+    Disabled()
     document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170565146855358484/2986a8b51a706d9f.PNG?ex=655980bf&is=65470bbf&hm=1c9f79c9a3b73bc73d9c536282889e419164f75d2e6fae841d0dc4c3cfb06982&";
 })
 
