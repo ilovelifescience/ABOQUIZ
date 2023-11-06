@@ -29,6 +29,11 @@ function startDisabled()  {
     target.disabled = true;
 }
 
+// function AllDisabled()  {
+//     const target = document.querySelecterAll(.button);
+//     target.disabled = false;
+// }
+
 function Disabled()  {
     const target = document.getElementById('설명');
     target.disabled = true;
