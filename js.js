@@ -19,12 +19,23 @@ const quiz = [
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170565146591109140/14.PNG"
 ];
 
+
     document.querySelectorAll(".button")[0].disabled = true;
     document.querySelectorAll(".button")[1].disabled = true;
     document.querySelectorAll(".button")[2].disabled = true;
     document.querySelectorAll(".button")[4].disabled = true;
     document.querySelectorAll(".button")[5].disabled = true;
     document.querySelectorAll(".button")[6].disabled = true;
+
+function disabled() {
+    document.querySelectorAll(".button")[0].disabled = true;
+    document.querySelectorAll(".button")[1].disabled = true;
+    document.querySelectorAll(".button")[2].disabled = true;
+    document.querySelectorAll(".button")[4].disabled = true;
+    document.querySelectorAll(".button")[5].disabled = true;
+    document.querySelectorAll(".button")[6].disabled = true;
+
+}
 
 const ans = [
     "BO", "BO", "AB", "BO", "BO", "AO", "AB", "AB", "AO", "BO", "AO", "BO", "AO", "AO", "AB"
@@ -95,6 +106,7 @@ document.getElementById('AA').addEventListener('click', function(){
         document.getElementsByClassName('wrong')[0].style.display = 'block';
     }
 if(i == 15){
+    disabled()
     document.getElementsByClassName('yes')[0].style.display = 'block';  
 }
 
@@ -110,6 +122,7 @@ document.getElementById('BB').addEventListener('click', function(){
         document.getElementsByClassName('wrong')[0].style.display = 'block';
     }
 if(i == 15){
+    disabled()
     document.getElementsByClassName('yes')[0].style.display = 'block';  
 }
 
@@ -125,6 +138,7 @@ document.getElementById('AO').addEventListener('click', function(){
         document.getElementsByClassName('wrong')[0].style.display = 'block';
     }
 if(i == 15){
+    disabled()
     document.getElementsByClassName('yes')[0].style.display = 'block';  
 }
 
@@ -140,6 +154,7 @@ document.getElementById('BO').addEventListener('click', function(){
         document.getElementsByClassName('wrong')[0].style.display = 'block';
     }
 if(i == 15){
+    disabled()
     document.getElementsByClassName('yes')[0].style.display = 'block';  
 }
 
@@ -155,6 +170,7 @@ document.getElementById('OO').addEventListener('click', function(){
         document.getElementsByClassName('wrong')[0].style.display = 'block';
     }
 if(i == 15){
+    disabled()
     document.getElementsByClassName('yes')[0].style.display = 'block';  
 }
 
@@ -171,6 +187,7 @@ document.getElementById('AB').addEventListener('click', function(){
             document.getElementsByClassName('wrong')[0].style.display = 'block';
         }
     else{
+        disabled()
         document.getElementsByClassName('yes')[0].style.display = 'block';  
     }
 
