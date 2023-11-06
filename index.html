@@ -7,8 +7,6 @@
     <title>혈액형 퀴즈</title>
 </head>
 <body>
-  
-    <div id="no" class="no" style="z-index: 1;" onclick="no()">실패!</div>
     <div id="yes" class="yes" style="z-index: 1;" onclick="yes()">성공!</div>
     <div id="wrong" class="wrong" style="z-index: 1;" onclick="wrong()">다시 생각해보세요</div>
     <div id="right" class="right" style="z-index: 1;" onclick="right()">정답입니다!</div>
@@ -22,7 +20,7 @@
           <a class="button" id="AA">AA</a>
           <a class="button" id="BB">BB</a>
           <a class="button" id="OO">OO</a>
-          <a class="button" id="설명">설명</a>
+          <a class="button" id="설명" onclick="no()">설명</a>
         </div>
         <br>
         <div class="buttons">

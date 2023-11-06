@@ -1,4 +1,4 @@
-let i = 0;
+let i = 14;
 
 
 const quiz = [
@@ -25,29 +25,32 @@ const ans = [
 
 
 function startDisabled()  {
-const target = document.getElementById('start');
-target.disabled = true;
+    const target = document.getElementById('start');
+    target.disabled = true;
 }
 
 function btnsDisabled()  {
-const target = document.querySelectorAll('.button');
-target.disabled = true;
+    const target = document.querySelectorAll('.button');
+    target.disabled = true;
 }
 
 function wrong(){
-document.getElementsByClassName('wrong')[0].style.display = 'none';
+    document.getElementsByClassName('wrong')[0].style.display = 'none';
 }
 
 function right(){
-document.getElementsByClassName('right')[0].style.display = 'none';
+    document.getElementsByClassName('right')[0].style.display = 'none';
 }
 
+function no(){
+    document.getElementsById('설명')[0].style.display = 'none';
+}
 
 btnsDisabled();
 
 function yes(){
-document.getElementsByClassName('yes')[0].style.display = 'none';
-document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg?ex=655984d2&is=65470fd2&hm=eab57c5c617d251f4c28192ed66a88f0870b5d8931316d088b62a4b664183943&";
+    document.getElementsByClassName('yes')[0].style.display = 'none';
+    document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg";
 }
 
 document.getElementById('start').addEventListener('click', function(){
@@ -60,8 +63,87 @@ document.getElementById('설명').addEventListener('click', function(){
     document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170565146855358484/2986a8b51a706d9f.PNG?ex=655980bf&is=65470bbf&hm=1c9f79c9a3b73bc73d9c536282889e419164f75d2e6fae841d0dc4c3cfb06982&";
 })
 
-while(true){
-    document.getElementById('start').addEventListener('click', function(){
+document.getElementById('start').addEventListener('click', function(){
+    document.getElementById('img').src = quiz[i];
+})
+
+document.getElementById('AA').addEventListener('click', function(){
+    if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
+        document.getElementsByClassName('right')[0].style.display = 'block';
+        i++;
+        document.getElementById('img').src = quiz[i];
+    }
+    else{
+        document.getElementsByClassName('wrong')[0].style.display = 'block';
+    }
+if(i == 15){
+    document.getElementsByClassName('yes')[0].style.display = 'block';  
+}
+
+})
+
+document.getElementById('BB').addEventListener('click', function(){
+    if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
+        document.getElementsByClassName('right')[0].style.display = 'block';
+        i++;
+        document.getElementById('img').src = quiz[i];
+    }
+    else{
+        document.getElementsByClassName('wrong')[0].style.display = 'block';
+    }
+if(i == 15){
+    document.getElementsByClassName('yes')[0].style.display = 'block';  
+}
+
+})
+
+document.getElementById('AO').addEventListener('click', function(){
+    if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
+        document.getElementsByClassName('right')[0].style.display = 'block';
+        i++;
+        document.getElementById('img').src = quiz[i];
+    }
+    else{
+        document.getElementsByClassName('wrong')[0].style.display = 'block';
+    }
+if(i == 15){
+    document.getElementsByClassName('yes')[0].style.display = 'block';  
+}
+
+})
+
+document.getElementById('BO').addEventListener('click', function(){
+    if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
+        document.getElementsByClassName('right')[0].style.display = 'block';
+        i++;
+        document.getElementById('img').src = quiz[i];
+    }
+    else{
+        document.getElementsByClassName('wrong')[0].style.display = 'block';
+    }
+if(i == 15){
+    document.getElementsByClassName('yes')[0].style.display = 'block';  
+}
+
+})
+
+document.getElementById('OO').addEventListener('click', function(){
+    if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
+        document.getElementsByClassName('right')[0].style.display = 'block';
+        i++;
+        document.getElementById('img').src = quiz[i];
+    }
+    else{
+        document.getElementsByClassName('wrong')[0].style.display = 'block';
+    }
+if(i == 15){
+    document.getElementsByClassName('yes')[0].style.display = 'block';  
+}
+
+})
+
+document.getElementById('AB').addEventListener('click', function(){
+    if(i != 14)
         if(document.getElementById(this.getAttribute('id')).getAttribute('id')==ans[i]){
             document.getElementsByClassName('right')[0].style.display = 'block';
             i++;
@@ -70,9 +152,8 @@ while(true){
         else{
             document.getElementsByClassName('wrong')[0].style.display = 'block';
         }
-    if(i == 15){
+    else{
         document.getElementsByClassName('yes')[0].style.display = 'block';  
     }
 
 })
-}
