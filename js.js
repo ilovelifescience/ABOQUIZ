@@ -30,8 +30,8 @@ function startDisabled()  {
 }
 
 function Disabled()  {
-    const target = document.getElementById('설명');
-    target.disabled = true;
+    const target2 = document.getElementById('설명');
+    target2.disabled = true;
 }
 
 function wrong(){
