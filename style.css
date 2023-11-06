@@ -21,6 +21,7 @@
     font-size: 120px;
     display: none;
     text-align: center;
+    marign-top : 50%;
     opacity: 0.5;
     animation-delay: 1s;
     white-space: nowrap;
