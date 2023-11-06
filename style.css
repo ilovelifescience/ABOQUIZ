@@ -28,9 +28,8 @@
     text-align: center;
     opacity: 0.5;
     animation-delay: 1s;
-    white-space: nowrap;
+   /* white-space: nowrap;*/
     justify-content: center;
-    margin : auto;
   }
   
   
@@ -47,9 +46,9 @@
     text-align: center;
     opacity: 0.5;
     animation-delay: 1s;
-    white-space: nowrap;
+   /* white-space: nowrap;*/
     justify-content: center;
-    margin : auto;
+   
   }
   
   
@@ -81,6 +80,7 @@
     text-align: center;
     animation-delay: 1s;
     opacity: 0.5;
+    justify-content: center;
   }
   
   
