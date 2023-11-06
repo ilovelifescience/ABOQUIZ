@@ -23,7 +23,7 @@ const ans = [
     "BO", "BO", "AB", "BO", "BO", "AB", "AO", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
 
-document.querySelectorAll(.button).disabled = true;
+document.querySelectorAll(".button").disabled = true;
 
 function startDisabled()  {
     const target = document.getElementById('start');
