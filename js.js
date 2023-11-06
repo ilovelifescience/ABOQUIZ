@@ -27,7 +27,7 @@ const quiz = [
     document.querySelectorAll(".button")[6].disabled = true;
 
 const ans = [
-    "BO", "BO", "AB", "BO", "BO", "AB", "AO", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
+    "BO", "BO", "AB", "BO", "BO", "AO", "AB", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
 
 document.querySelectorAll(".button").disabled = true;
