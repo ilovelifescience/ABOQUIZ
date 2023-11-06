@@ -10,7 +10,9 @@
     border-color: black;
   }
   
-  
+  .mola {
+      color : rgb(30, 161, 54);
+  }
   
   .wrong {
     background-color: rgb(255, 0, 0);
