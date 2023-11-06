@@ -23,16 +23,17 @@ const ans = [
     "BO", "BO", "AB", "BO", "BO", "AB", "AO", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
 
+document.querySelectorAll(.button).disabled = true;
 
 function startDisabled()  {
     const target = document.getElementById('start');
     target.disabled = true;
 }
 
-// function AllDisabled()  {
-//     const target = document.querySelecterAll(.button);
-//     target.disabled = false;
-// }
+function AllDisabled()  {
+    const target = document.querySelectorAll(.button);
+    target.disabled = false;
+}
 
 function Disabled()  {
     const target = document.getElementById('설명');
@@ -69,6 +70,7 @@ document.getElementById('설명').addEventListener('click', function(){
 })
 
 document.getElementById('start').addEventListener('click', function(){
+    AllDisabled();
     document.getElementById('img').src = quiz[i];
 })
 
