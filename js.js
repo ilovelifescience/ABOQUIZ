@@ -19,6 +19,13 @@ const quiz = [
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170565146591109140/14.PNG"
 ];
 
+    document.querySelectorAll(.button)[0].disabled = true;
+    document.querySelectorAll(.button)[1].disabled = true;
+    document.querySelectorAll(.button)[2].disabled = true;
+    document.querySelectorAll(.button)[4].disabled = true;
+    document.querySelectorAll(.button)[5].disabled = true;
+    document.querySelectorAll(.button)[6].disabled = true;
+
 const ans = [
     "BO", "BO", "AB", "BO", "BO", "AB", "AO", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
@@ -31,8 +38,12 @@ function startDisabled()  {
 }
 
 function AllDisabled()  {
-    const target = document.querySelectorAll(.button);
-    target.disabled = false;
+    document.querySelectorAll(.button)[0].disabled = false;
+    document.querySelectorAll(.button)[1].disabled = false;
+    document.querySelectorAll(.button)[2].disabled = false;
+    document.querySelectorAll(.button)[4].disabled = false;
+    document.querySelectorAll(.button)[5].disabled = false;
+    document.querySelectorAll(.button)[6].disabled = false;
 }
 
 function Disabled()  {
