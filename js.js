@@ -6,7 +6,7 @@ const quiz = [
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554978658684928/1.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554978906153000/2.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554979145224323/3.PNG",
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1171084863068180581/4.PNG",
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1171084863068180581/5.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554979828899911/5.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554980143468595/6.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554980554518559/7.PNG",
