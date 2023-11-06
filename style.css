@@ -1,5 +1,6 @@
 .zzangbox {
-    position: relative;
+    position: fixed;
+    overflow : hidden;
 /*     width : 425px;
     height: 670px; */
     width : 100%;
