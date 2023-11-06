@@ -7,8 +7,8 @@ const quiz = [
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554978906153000/2.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554979145224323/3.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1171091981670293605/4.jpg",
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1171084863068180581/5.PNG",
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1170554980143468595/6.PNG",
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1171097456755351582/5.png",
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1171097239893065809/6.png",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1171092439050760213/7.png",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554980810367136/8.PNG",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170554981078798356/9.PNG",
@@ -20,7 +20,7 @@ const quiz = [
 ];
 
 const ans = [
-    "BO", "BO", "AB", "BO", "BO", "AB", "AB", "AO", "AO", "BO", "AO", "BO", "AO", "AO", "AB"
+    "BO", "BO", "AB", "BO", "BO", "AB", "AO", "AB", "AB", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
 
 
