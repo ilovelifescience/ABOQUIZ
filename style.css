@@ -12,7 +12,7 @@
     margin-right: auto;*/
     /*border-color: black;*/
     background-color : blue;
-    margin : auto;
+    margin : 0;
     content-align : center;
     opacity : 0.7;
   }
@@ -34,6 +34,7 @@
     animation-delay: 1s;
    /* white-space: nowrap;*/
     justify-content: center;
+    margin : 0;
   }
   
   
@@ -52,6 +53,7 @@
     animation-delay: 1s;
    /* white-space: nowrap;*/
     justify-content: center;
+    margin : 0;
    
   }
   
@@ -85,6 +87,7 @@
     animation-delay: 1s;
     opacity: 0.7;
     justify-content: center;
+      margin : 0;
   }
   
   
