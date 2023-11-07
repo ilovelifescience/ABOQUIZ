@@ -74,11 +74,15 @@ function no(){
     document.getElementsById('설명')[0].style.display = 'none';
 }
 
+function ps(){
+    document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg";
+    document.getElementsByClassName('ps')[0].style.display = 'none';
+}
 
 function yes(){
     document.getElementsByClassName('yes')[0].style.display = 'none';
-    document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg";
-}
+    document.getElementsByClassName('ps')[0].style.display = 'block';
+    }
 
 document.getElementById('start').addEventListener('click', function(){
     document.getElementById('img').src = quiz[i];
