@@ -71,7 +71,7 @@ function right(){
 }
 
 function no(){
-    document.getElementsById('설명')[0].style.display = 'none';
+    document.getElementsById('설명').style.display = 'none';
 }
 
 function ps(){
