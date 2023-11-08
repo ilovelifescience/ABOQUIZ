@@ -42,9 +42,9 @@ const ans = [
 ]
 
 const pics = [
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
-    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
+    "https://imagedelivery.net/ISo6CJNY0e5_7mxZ2B_Wzg/b940f822-5863-4f4e-8439-e64985f16901/public?exp=1699444746&sig=de162f758c8456c6f4ba0b9c3fd6abcb75208a3eed937a39ff8222355149194e",
+    "https://blog.kakaocdn.net/dn/cYQTO1/btrznbnIxxf/e4NAgjst8TiHKJkS700GLK/img.gif",
+    "https://i.namu.wiki/i/bHS1YaCRBGt4wPywBhIFXAuTXaUTGR5PJB3OHlGm0xOzTGRRWZLMKHyZBDp1-XtEE1k2kNdDOtPG2WJOmaN2bw.gif",
     "https://blog.kakaocdn.net/dn/tXoBH/btroxBbGh8M/kgi8KkKrZmF5InM7GBy1GK/img.gif",
     "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/COMMUNITY/a250352f24574344841ea4138c37d293/4390e9ff7379469eac5bd141dc4dcfa1.gif",
     "https://i.imgur.com/5Sh6RsF.gif",
