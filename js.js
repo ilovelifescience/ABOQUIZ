@@ -57,11 +57,11 @@ const pics = [
     "https://1.bp.blogspot.com/-rjEB1lXAYGg/YKKfXritErI/AAAAAAAAbRE/LJ9LTpcWkNc_BoYvRYIn8D435kKq9oMKgCEwYBhgLKtMDAL1OcqzVMD-fG_58GdDJOHwP7Il_3I-p_weED5YzGhimLd2Tjp9-pNi_HeFUfnM6zoTHJmBrE2G-tHbiOR89q7zlM_Fq5gUlKhqxD-MBHgL8KnS47bMWElubyrtz_NuFTyrsxjTEPGcQ7d1DDDunGd6r75Lfonj0i-H5wZDY1AwuS4WUQOfo6eG3v9Jw0Kkil082EqBinNzp6gGngJPqrZF2HBGfS4CS61x-HtpWi3OGepWi8B9lPc5AfswtwFQp2wavB-K6I2jgmRLPtLdTLSYiaP_YFp498Hx1pcjHbOR0xFJGCE20qVfAYupswU4vjahiHbot9w_mQoUdIvwomdOlh4eN3ETrkSI2mdkqROZFc7KbMOBoVwDoVY1nPK_I7ClKolx6dKNftSwS6XXThHTKPahbeWsYuZmau8kg2LMP00i9nTt6DOlYYQSIKNpbV4CITiZkyJ2x8A3zKjKBrGY7kLnWLwiekxg-4ndazhaih_B58SxG862y2kmtq0Y-4QYx4_rvC-q-Wi5vUHmEWQFatis_VaA5cRKLJyiP_2khbJ3P_Ety7fMTnKCrEiaRroKe-GN-lDCvag4x5t3hN65f6dfpxA1dtz7y1Gt0KqOmCHwwxMOKhQY/s500/RelievedWelldocumentedBobcat-size_restricted.gif",
     "https://t1.daumcdn.net/cafeattach/aVeZ/f55fb4048cf5d0467706820fb3455ed4679165e3",
     "https://storage.blip.kr/collection/5b8f2b32cda7313eb9fc0dc7974a9e76.gif",
-    "/images/IMG_3982.jpeg",
-    "/images/IMG_3982.jpeg",
-    "/images/IMG_3982.jpeg",
-    "/images/IMG_3982.jpeg",
-    "/images/IMG_3982.jpeg"
+    "https://github.com/ilovelifescience/ABOQUIZ/assets/149920560/5f1fc52b-1e4f-48f4-96fb-09a7d5aa46c4",
+    "https://github.com/ilovelifescience/ABOQUIZ/assets/149920560/5f1fc52b-1e4f-48f4-96fb-09a7d5aa46c4",
+    "https://github.com/ilovelifescience/ABOQUIZ/assets/149920560/5f1fc52b-1e4f-48f4-96fb-09a7d5aa46c4",
+    "https://github.com/ilovelifescience/ABOQUIZ/assets/149920560/5f1fc52b-1e4f-48f4-96fb-09a7d5aa46c4",
+    "https://github.com/ilovelifescience/ABOQUIZ/assets/149920560/5f1fc52b-1e4f-48f4-96fb-09a7d5aa46c4"
     
 ]
 
