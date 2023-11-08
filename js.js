@@ -46,7 +46,7 @@ const pics = [
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
     "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
     "https://blog.kakaocdn.net/dn/tXoBH/btroxBbGh8M/kgi8KkKrZmF5InM7GBy1GK/img.gif",
-    "https://storage.blip.kr/collection/75d52a4bd1df6447ea07e3a6e3d1c873.gif",
+    "https://d2x8kymwjom7h7.cloudfront.net/live/application_no/96001/default/COMMUNITY/a250352f24574344841ea4138c37d293/4390e9ff7379469eac5bd141dc4dcfa1.gif",
     "https://i.imgur.com/5Sh6RsF.gif",
     "https://file.instiz.net/data/file/20131016/3/f/7/3f73b22f11bcec9d1588007dba6f7772",
     "https://media.tenor.com/L_wc4wdG0x4AAAAC/%ED%95%B4%EB%A6%B0-%EA%B3%A0%EC%96%91%EC%9D%B4.gif",
