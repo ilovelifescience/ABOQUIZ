@@ -41,6 +41,22 @@ const ans = [
     "BO", "BO", "AB", "BO", "BO", "AO", "AB", "AB", "AO", "BO", "AO", "BO", "AO", "AO", "AB"
 ]
 
+const pics = [
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
+    "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg",
+    "https://cdn.thetitlenews.net/news/photo/202308/2161_3803_3724.jpg",
+    "https://i.namu.wiki/i/7lB7WWh9Ye8KKc0LugUPAiYHMGo-4eMaXxsp1RMKZ3rnZF2KqxTzTwAlgCn_FxegXHgCUMOVhGVtgL_J-zauMQ.webp",
+    "",
+    "",
+    "",
+    "",
+    ""
+    
+]
+
+let ran = Math.floor(Math.random() * 10);
+
 document.querySelectorAll(".button").disabled = true;
 
 function startDisabled()  {
@@ -75,7 +91,7 @@ function no(){
 }
 
 function ps(){
-    document.getElementById('img').src = "https://cdn.discordapp.com/attachments/1038804641644814459/1170569522617524305/KakaoTalk_20231105_124403479.jpg";
+    document.getElementById('img').src = pics[ran];
     document.getElementsByClassName('ps')[0].style.display = 'none';
 }
 
