@@ -51,11 +51,21 @@ const pics = [
     "https://file.instiz.net/data/file/20131016/3/f/7/3f73b22f11bcec9d1588007dba6f7772",
     "https://media.tenor.com/L_wc4wdG0x4AAAAC/%ED%95%B4%EB%A6%B0-%EA%B3%A0%EC%96%91%EC%9D%B4.gif",
     "https://file3.instiz.net/data/cached_img/upload/2023/06/22/13/2e15e1059dd38116b699eba2f2599887.gif",
-    "https://pbs.twimg.com/media/DkWKEl0UYAA7O7U.jpg"
+    "https://pbs.twimg.com/media/DkWKEl0UYAA7O7U.jpg",
+    "https://file3.instiz.net/data/file3/2023/05/15/9/6/e/96e294ee4d0e937cd612006a0d3830e7.gif",
+    "https://media.tenor.com/vEq4kviU9nIAAAAC/%ED%95%B4%EB%A6%B0-%EA%B9%A8%EB%AC%BC%ED%95%98%ED%8A%B8.gif",
+    "https://1.bp.blogspot.com/-rjEB1lXAYGg/YKKfXritErI/AAAAAAAAbRE/LJ9LTpcWkNc_BoYvRYIn8D435kKq9oMKgCEwYBhgLKtMDAL1OcqzVMD-fG_58GdDJOHwP7Il_3I-p_weED5YzGhimLd2Tjp9-pNi_HeFUfnM6zoTHJmBrE2G-tHbiOR89q7zlM_Fq5gUlKhqxD-MBHgL8KnS47bMWElubyrtz_NuFTyrsxjTEPGcQ7d1DDDunGd6r75Lfonj0i-H5wZDY1AwuS4WUQOfo6eG3v9Jw0Kkil082EqBinNzp6gGngJPqrZF2HBGfS4CS61x-HtpWi3OGepWi8B9lPc5AfswtwFQp2wavB-K6I2jgmRLPtLdTLSYiaP_YFp498Hx1pcjHbOR0xFJGCE20qVfAYupswU4vjahiHbot9w_mQoUdIvwomdOlh4eN3ETrkSI2mdkqROZFc7KbMOBoVwDoVY1nPK_I7ClKolx6dKNftSwS6XXThHTKPahbeWsYuZmau8kg2LMP00i9nTt6DOlYYQSIKNpbV4CITiZkyJ2x8A3zKjKBrGY7kLnWLwiekxg-4ndazhaih_B58SxG862y2kmtq0Y-4QYx4_rvC-q-Wi5vUHmEWQFatis_VaA5cRKLJyiP_2khbJ3P_Ety7fMTnKCrEiaRroKe-GN-lDCvag4x5t3hN65f6dfpxA1dtz7y1Gt0KqOmCHwwxMOKhQY/s500/RelievedWelldocumentedBobcat-size_restricted.gif",
+    "https://t1.daumcdn.net/cafeattach/aVeZ/f55fb4048cf5d0467706820fb3455ed4679165e3",
+    "https://storage.blip.kr/collection/5b8f2b32cda7313eb9fc0dc7974a9e76.gif",
+    "",
+    "",
+    "",
+    "",
+    ""
     
 ]
 
-let ran = Math.floor(Math.random() * 10);
+let ran = Math.floor(Math.random() * 20);
 
 document.querySelectorAll(".button").disabled = true;
 
